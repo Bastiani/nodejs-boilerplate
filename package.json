@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for start a project with nodejs/express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rafael Bastiani <rafacdb@gmail.com> (https://rafaelbastiani.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bastiani/nodejs-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bastiani/nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Bastiani/nodejs-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
