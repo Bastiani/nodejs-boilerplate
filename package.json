@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf lib",
     "start": "node lib/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
     "babel-node": "./node_modules/.bin/babel-node src/server.js",
     "nodemon": "nodemon --exec npm run babel-node -- src/server.js",
     "build": "npm run clean && mkdir -p lib && ./node_modules/.bin/babel src -s -D -d lib",
@@ -38,11 +39,15 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.12.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
     "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
     "rimraf": "^2.6.2"
   },
   "dependencies": {
