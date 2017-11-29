@@ -2,9 +2,10 @@
   "name": "nodejs-boilerplate",
   "version": "1.0.0",
   "description": "boilerplate for start a project with nodejs/express",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "clean": "rimraf lib",
+    "start": "node lib/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel-node": "./node_modules/.bin/babel-node src/server.js",
     "nodemon": "nodemon --exec npm run babel-node -- src/server.js",
@@ -12,7 +13,18 @@
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "babel",
+    "boilerplate",
+    "scaffold",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "jest",
+    "eslint"
+  ],
   "author": "Rafael Bastiani <rafacdb@gmail.com> (https://rafaelbastiani.com/)",
   "license": "MIT",
   "repository": {
