@@ -1,4 +1,4 @@
-# NodeJS/Express API boilerplate
+# Node.js/Express API boilerplate
 
 My boilerplate for start NodeJS/Express with Jest/Babel/ESLint
 
